@@ -8,7 +8,7 @@ while num1 == num2:
     print('<os valores não podem ser iguais>')
     num1 = int(input('Digite um número: '))
     num2 = int(input('Digite um número: '))
-if num1 > num2:
+if num1 < num2:
     print(f'A sequência crescente: {num1} , {num2}')
 else:
     print(f'A sequência crescente: {num2}, {num1}')
